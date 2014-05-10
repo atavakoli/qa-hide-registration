@@ -45,3 +45,5 @@
 
 
 	qa_register_plugin_layer('qa-hide-registration-layer.php', 'Hide Registration');
+	qa_register_plugin_module('module', 'qa-hide-registration-admin-form.php', 'qa_hide_registration_admin_form', 'Hide Registration');
+
