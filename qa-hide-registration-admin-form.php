@@ -16,7 +16,7 @@ class qa_hide_registration_admin_form
 	function option_default($option)
 	{
 		if ($option == 'plugin_hideregistration_enabled')
-			return true;
+			return false;
 	}
 
 	function admin_form(&$qa_content)
