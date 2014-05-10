@@ -4,7 +4,7 @@
 	{
 		function nav_list($navigation, $class, $level = NULL) // remove register links
 		{
-			if (qa_opt('qa_hideregistration_enabled'))
+			if (qa_opt('plugin_hideregistration_enabled'))
 			{
 				if ($class == 'nav-user')
 				{
